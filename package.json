@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-cucumber-selenium-docker-stack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testing nodejs + cucumber + selenium + docker stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegon/nodejs-cucumber-selenium-docker-stack.git"
+  },
+  "keywords": [],
+  "author": "Leandro Gonçalves de Oliveira <olegon.main@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olegon/nodejs-cucumber-selenium-docker-stack/issues"
+  },
+  "homepage": "https://github.com/olegon/nodejs-cucumber-selenium-docker-stack#readme",
+  "devDependencies": {
+    "cucumber": "^6.0.5",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}

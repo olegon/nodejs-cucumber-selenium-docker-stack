@@ -1,2 +1,3 @@
-# nodejs-cucumber-selenium-docker-stack
-Testing nodejs + cucumber + selenium + docker stack
+# nodejs + Cucumber + Selenium + Docker stack
+
+Testing nodejs + Cucumber + Selenium + Docker stack
