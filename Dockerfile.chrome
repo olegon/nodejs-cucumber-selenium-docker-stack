@@ -1,0 +1,19 @@
+FROM selenium/node-chrome
+
+USER root
+
+# Install nodejs 12
+RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+RUN sudo apt-get install -y nodejs
+
+# Build application
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm install
+COPY . ./
+
+USER seluser
+
+ENV SELENIUM_BROWSER=chrome
+
+ENTRYPOINT [ "npm", "test" ]
