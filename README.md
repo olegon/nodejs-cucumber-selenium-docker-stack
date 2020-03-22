@@ -20,7 +20,7 @@ There are two scripts to help you with that.
 
 ## Running on your local machine
  
-Before executing this expirement, download the browser drivers that matches your installed browser version:
+Before executing this experiment, download the browser drivers that matches your installed browser version:
 
 - [Firefox driver download page](https://github.com/mozilla/geckodriver/releases)
 - [Chrome driver download page](https://chromedriver.chromium.org/downloads)
