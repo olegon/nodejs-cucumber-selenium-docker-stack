@@ -20,6 +20,6 @@
   "homepage": "https://github.com/olegon/nodejs-cucumber-selenium-docker-stack#readme",
   "devDependencies": {
     "cucumber": "^6.0.5",
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "selenium-webdriver": "^4.34.0"
   }
 }
